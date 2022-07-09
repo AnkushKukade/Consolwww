@@ -44,6 +44,26 @@ namespace Consolwww
             }
             Console.WriteLine("------------------------------");
 
+            // 6 Switch loop in C#
+
+            int satisfaction = 7;
+            Console.WriteLine(
+              // "This person is {
+
+
+                    satisfaction switch
+                    {
+                        > 8 => "super happy !",
+                        > 6 => "super satifaed !",
+                        > 4 => "in super doubt.... !",
+                        > 2 => "just not ok !",
+                        _ => "happy and sad !",
+                    }
+                   
+                );
+             
+            Console.WriteLine("------------------------------");
+
         }
     }
 }
